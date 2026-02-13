@@ -1,3 +1,10 @@
+1.34
+	Minor documentation fixes.
+	Reverse the ChangeLog so new items are first.
+
+	f1acc48 Fix incorrect usage of CHECK macro in gmp_compat.c (#67)
+	0353f9d Silence unused-value warnings (#68)
+
 1.33
 	Make mp_rat_read_cstring more consistent with mp_int_read_cstring.
 	Add some tests for that.
