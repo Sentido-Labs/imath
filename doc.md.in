@@ -5,7 +5,7 @@ Author: [M. J. Fromberger](https://github.com/creachadair)
 ## Installation
 
 1. Edit Makefile to select compiler and options.  The default is to use gcc.
-   You may want to change CC to `clang` instead of `gcc` (and on macOS that
+   You may want to change CC to `clang` instead of `gcc` (and on macOS that is
    what you will get anyway), but you should be able to use the default GCC
    settings for either.
 
@@ -52,7 +52,7 @@ message.  The following constants are defined for processing these:
 If you obtain a zero or negative value of an `mp_result`, you can use the
 `mp_error_string()` routine to obtain a pointer to a brief human-readable
 string describing the error.  These strings are statically allocated, so they
-need not be freed by the caller; the same strings are re-used from call to
+need not be freed by the caller; the same strings are reused from call to
 call.
 
 Unless otherwise noted, it is legal to use the same parameter for both inputs
